@@ -16,7 +16,13 @@
 
     struct Point
     {
+        public Point( int x, int y )
+        {
+            X = x;
+            Y = y;
+        }
         public double X { get; init; }
+
         public double Y { get; init; }
     }
 }

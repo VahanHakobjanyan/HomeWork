@@ -293,6 +293,8 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Custom Money Type", "10_Str
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Geolocation", "10_Struct_Class\Geolocation\Geolocation.csproj", "{EF2FE9C8-7FE5-4DEC-95C6-297640D7FB05}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "University", "University\University.csproj", "{467FDA0D-30CF-4A2B-926C-4B310FEEA9EA}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -835,6 +837,10 @@ Global
 		{EF2FE9C8-7FE5-4DEC-95C6-297640D7FB05}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{EF2FE9C8-7FE5-4DEC-95C6-297640D7FB05}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{EF2FE9C8-7FE5-4DEC-95C6-297640D7FB05}.Release|Any CPU.Build.0 = Release|Any CPU
+		{467FDA0D-30CF-4A2B-926C-4B310FEEA9EA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{467FDA0D-30CF-4A2B-926C-4B310FEEA9EA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{467FDA0D-30CF-4A2B-926C-4B310FEEA9EA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{467FDA0D-30CF-4A2B-926C-4B310FEEA9EA}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

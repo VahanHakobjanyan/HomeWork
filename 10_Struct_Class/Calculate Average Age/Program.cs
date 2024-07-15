@@ -20,7 +20,9 @@
                 sum += person.Age;
             }
 
-            Console.WriteLine(sum);
+            int averageAge = sum / people.Length;
+
+            Console.WriteLine(averageAge);
             Console.ReadKey();
         }
     }
