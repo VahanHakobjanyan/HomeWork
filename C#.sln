@@ -315,15 +315,25 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Pizza Factory Application",
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "13", "13", "{9D92CBD9-4A04-4D32-8106-FA0369DB4D15}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Basic Interface Implementation", "13\Basic Interface Implementation\Basic Interface Implementation.csproj", "{0D8761BD-D13C-4D75-9E13-FB699DD3CF83}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Basic Interface Implementation", "13\Basic Interface Implementation\Basic Interface Implementation.csproj", "{0D8761BD-D13C-4D75-9E13-FB699DD3CF83}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Explicit Interface Implementation", "13\Explicit Interface Implementation\Explicit Interface Implementation.csproj", "{B92E4521-0B1D-4F10-9B31-A8FD2D4E7E05}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Explicit Interface Implementation", "13\Explicit Interface Implementation\Explicit Interface Implementation.csproj", "{B92E4521-0B1D-4F10-9B31-A8FD2D4E7E05}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Multiple Interfaces", "13\Multiple Interfaces\Multiple Interfaces.csproj", "{615C160E-D6CE-44A0-9B68-FD09AFA33479}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Multiple Interfaces", "13\Multiple Interfaces\Multiple Interfaces.csproj", "{615C160E-D6CE-44A0-9B68-FD09AFA33479}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Custom Interface properties", "13\Custom Interface properties\Custom Interface properties.csproj", "{4BCF12E0-B5CB-4E32-AE49-EA0FC54DF936}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Custom Interface properties", "13\Custom Interface properties\Custom Interface properties.csproj", "{4BCF12E0-B5CB-4E32-AE49-EA0FC54DF936}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Dependency Injection", "13\Dependency Injection\Dependency Injection.csproj", "{2DE76E75-91BB-485C-90F2-54247FB2C662}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Dependency Injection", "13\Dependency Injection\Dependency Injection.csproj", "{2DE76E75-91BB-485C-90F2-54247FB2C662}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "14", "14", "{FE28C5B4-B75A-47E4-871C-CDA0A26FFDEA}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Zoo Animals", "14\Zoo Animals\Zoo Animals.csproj", "{7740F191-F515-4800-A664-029B7E94CA65}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Library Bookshelf", "14\Library Bookshelf\Library Bookshelf.csproj", "{6E649C87-27A3-442A-B076-6102C98794F5}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Traveling by Train Stops", "14\Traveling by Train Stops\Traveling by Train Stops.csproj", "{0D30C1BC-9090-43EF-8D3E-EED39F785E1C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "City Attractions Enumerator", "14\City Attractions Enumerator\City Attractions Enumerator.csproj", "{EAF54CD1-EBC0-4857-BCB9-E1A49139C078}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -915,6 +925,22 @@ Global
 		{2DE76E75-91BB-485C-90F2-54247FB2C662}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{2DE76E75-91BB-485C-90F2-54247FB2C662}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{2DE76E75-91BB-485C-90F2-54247FB2C662}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7740F191-F515-4800-A664-029B7E94CA65}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7740F191-F515-4800-A664-029B7E94CA65}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7740F191-F515-4800-A664-029B7E94CA65}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7740F191-F515-4800-A664-029B7E94CA65}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6E649C87-27A3-442A-B076-6102C98794F5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6E649C87-27A3-442A-B076-6102C98794F5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6E649C87-27A3-442A-B076-6102C98794F5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6E649C87-27A3-442A-B076-6102C98794F5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0D30C1BC-9090-43EF-8D3E-EED39F785E1C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0D30C1BC-9090-43EF-8D3E-EED39F785E1C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0D30C1BC-9090-43EF-8D3E-EED39F785E1C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0D30C1BC-9090-43EF-8D3E-EED39F785E1C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EAF54CD1-EBC0-4857-BCB9-E1A49139C078}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EAF54CD1-EBC0-4857-BCB9-E1A49139C078}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EAF54CD1-EBC0-4857-BCB9-E1A49139C078}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EAF54CD1-EBC0-4857-BCB9-E1A49139C078}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -1065,6 +1091,10 @@ Global
 		{615C160E-D6CE-44A0-9B68-FD09AFA33479} = {9D92CBD9-4A04-4D32-8106-FA0369DB4D15}
 		{4BCF12E0-B5CB-4E32-AE49-EA0FC54DF936} = {9D92CBD9-4A04-4D32-8106-FA0369DB4D15}
 		{2DE76E75-91BB-485C-90F2-54247FB2C662} = {9D92CBD9-4A04-4D32-8106-FA0369DB4D15}
+		{7740F191-F515-4800-A664-029B7E94CA65} = {FE28C5B4-B75A-47E4-871C-CDA0A26FFDEA}
+		{6E649C87-27A3-442A-B076-6102C98794F5} = {FE28C5B4-B75A-47E4-871C-CDA0A26FFDEA}
+		{0D30C1BC-9090-43EF-8D3E-EED39F785E1C} = {FE28C5B4-B75A-47E4-871C-CDA0A26FFDEA}
+		{EAF54CD1-EBC0-4857-BCB9-E1A49139C078} = {FE28C5B4-B75A-47E4-871C-CDA0A26FFDEA}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {CC8B899A-2422-42FF-8669-37EE786D1AB7}
