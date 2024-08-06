@@ -329,11 +329,21 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "14", "14", "{FE28C5B4-B75A-
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Zoo Animals", "14\Zoo Animals\Zoo Animals.csproj", "{7740F191-F515-4800-A664-029B7E94CA65}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Library Bookshelf", "14\Library Bookshelf\Library Bookshelf.csproj", "{6E649C87-27A3-442A-B076-6102C98794F5}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Library Bookshelf", "14\Library Bookshelf\Library Bookshelf.csproj", "{6E649C87-27A3-442A-B076-6102C98794F5}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Traveling by Train Stops", "14\Traveling by Train Stops\Traveling by Train Stops.csproj", "{0D30C1BC-9090-43EF-8D3E-EED39F785E1C}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Traveling by Train Stops", "14\Traveling by Train Stops\Traveling by Train Stops.csproj", "{0D30C1BC-9090-43EF-8D3E-EED39F785E1C}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "City Attractions Enumerator", "14\City Attractions Enumerator\City Attractions Enumerator.csproj", "{EAF54CD1-EBC0-4857-BCB9-E1A49139C078}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "City Attractions Enumerator", "14\City Attractions Enumerator\City Attractions Enumerator.csproj", "{EAF54CD1-EBC0-4857-BCB9-E1A49139C078}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "15", "15", "{E1999581-F1FA-4AA1-BEDF-C49751B8803B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Custom Range Generator", "15\Custom Range Generator\Custom Range Generator.csproj", "{D19169CA-D777-4221-9329-7765FEC827F0}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Create a custom linked list", "15\Create a custom linked list\Create a custom linked list.csproj", "{10F9CD56-BC54-474C-B1DA-F8BEF542E4BB}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Generate the Fibonacci sequence", "15\Generate the Fibonacci sequence\Generate the Fibonacci sequence.csproj", "{60536620-4FC5-49BA-8921-6D5E385568B3}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Bookstore Management", "15\Bookstore Management\Bookstore Management.csproj", "{B1FFE8AA-AC8C-44C2-ACEE-B9BF0634289E}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -941,6 +951,22 @@ Global
 		{EAF54CD1-EBC0-4857-BCB9-E1A49139C078}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{EAF54CD1-EBC0-4857-BCB9-E1A49139C078}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{EAF54CD1-EBC0-4857-BCB9-E1A49139C078}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D19169CA-D777-4221-9329-7765FEC827F0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D19169CA-D777-4221-9329-7765FEC827F0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D19169CA-D777-4221-9329-7765FEC827F0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D19169CA-D777-4221-9329-7765FEC827F0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{10F9CD56-BC54-474C-B1DA-F8BEF542E4BB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{10F9CD56-BC54-474C-B1DA-F8BEF542E4BB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{10F9CD56-BC54-474C-B1DA-F8BEF542E4BB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{10F9CD56-BC54-474C-B1DA-F8BEF542E4BB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{60536620-4FC5-49BA-8921-6D5E385568B3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{60536620-4FC5-49BA-8921-6D5E385568B3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{60536620-4FC5-49BA-8921-6D5E385568B3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{60536620-4FC5-49BA-8921-6D5E385568B3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B1FFE8AA-AC8C-44C2-ACEE-B9BF0634289E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B1FFE8AA-AC8C-44C2-ACEE-B9BF0634289E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B1FFE8AA-AC8C-44C2-ACEE-B9BF0634289E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B1FFE8AA-AC8C-44C2-ACEE-B9BF0634289E}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -1095,6 +1121,10 @@ Global
 		{6E649C87-27A3-442A-B076-6102C98794F5} = {FE28C5B4-B75A-47E4-871C-CDA0A26FFDEA}
 		{0D30C1BC-9090-43EF-8D3E-EED39F785E1C} = {FE28C5B4-B75A-47E4-871C-CDA0A26FFDEA}
 		{EAF54CD1-EBC0-4857-BCB9-E1A49139C078} = {FE28C5B4-B75A-47E4-871C-CDA0A26FFDEA}
+		{D19169CA-D777-4221-9329-7765FEC827F0} = {E1999581-F1FA-4AA1-BEDF-C49751B8803B}
+		{10F9CD56-BC54-474C-B1DA-F8BEF542E4BB} = {E1999581-F1FA-4AA1-BEDF-C49751B8803B}
+		{60536620-4FC5-49BA-8921-6D5E385568B3} = {E1999581-F1FA-4AA1-BEDF-C49751B8803B}
+		{B1FFE8AA-AC8C-44C2-ACEE-B9BF0634289E} = {E1999581-F1FA-4AA1-BEDF-C49751B8803B}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {CC8B899A-2422-42FF-8669-37EE786D1AB7}
