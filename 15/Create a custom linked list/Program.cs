@@ -7,7 +7,16 @@
         //Example: var myList = new CustomLinkedList<int>(); myList.Add(10); myList.Add(20); myList.Add(30);.
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello, World!");
+            CustomLinkedList<int> cus = new CustomLinkedList<int>();
+
+            cus.Add(1);
+            cus.Add(20);
+
+
+            foreach (var i in cus)
+            {
+                Console.WriteLine(i);
+            }
         }
     }
 }
