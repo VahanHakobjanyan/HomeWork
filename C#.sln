@@ -293,8 +293,6 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Custom Money Type", "10_Str
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Geolocation", "10_Struct_Class\Geolocation\Geolocation.csproj", "{EF2FE9C8-7FE5-4DEC-95C6-297640D7FB05}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "University", "University\University.csproj", "{467FDA0D-30CF-4A2B-926C-4B310FEEA9EA}"
-EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "MemberwiseClone", "MemberwiseClone", "{CA781F78-6FBB-4FBE-A026-5E1FAB31B42A}"
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MemberwiseClone", "MemberwiseClone\MemberwiseClone.csproj", "{2AA32477-957E-4B93-AAB5-96EC0F6D0C0C}"
@@ -337,13 +335,13 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "City Attractions Enumerator
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "15", "15", "{E1999581-F1FA-4AA1-BEDF-C49751B8803B}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Custom Range Generator", "15\Custom Range Generator\Custom Range Generator.csproj", "{D19169CA-D777-4221-9329-7765FEC827F0}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Custom Range Generator", "15\Custom Range Generator\Custom Range Generator.csproj", "{D19169CA-D777-4221-9329-7765FEC827F0}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Create a custom linked list", "15\Create a custom linked list\Create a custom linked list.csproj", "{10F9CD56-BC54-474C-B1DA-F8BEF542E4BB}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Create a custom linked list", "15\Create a custom linked list\Create a custom linked list.csproj", "{10F9CD56-BC54-474C-B1DA-F8BEF542E4BB}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Generate the Fibonacci sequence", "15\Generate the Fibonacci sequence\Generate the Fibonacci sequence.csproj", "{60536620-4FC5-49BA-8921-6D5E385568B3}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Generate the Fibonacci sequence", "15\Generate the Fibonacci sequence\Generate the Fibonacci sequence.csproj", "{60536620-4FC5-49BA-8921-6D5E385568B3}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Bookstore Management", "15\Bookstore Management\Bookstore Management.csproj", "{B1FFE8AA-AC8C-44C2-ACEE-B9BF0634289E}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Bookstore Management", "15\Bookstore Management\Bookstore Management.csproj", "{B1FFE8AA-AC8C-44C2-ACEE-B9BF0634289E}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -887,10 +885,6 @@ Global
 		{EF2FE9C8-7FE5-4DEC-95C6-297640D7FB05}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{EF2FE9C8-7FE5-4DEC-95C6-297640D7FB05}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{EF2FE9C8-7FE5-4DEC-95C6-297640D7FB05}.Release|Any CPU.Build.0 = Release|Any CPU
-		{467FDA0D-30CF-4A2B-926C-4B310FEEA9EA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{467FDA0D-30CF-4A2B-926C-4B310FEEA9EA}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{467FDA0D-30CF-4A2B-926C-4B310FEEA9EA}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{467FDA0D-30CF-4A2B-926C-4B310FEEA9EA}.Release|Any CPU.Build.0 = Release|Any CPU
 		{2AA32477-957E-4B93-AAB5-96EC0F6D0C0C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{2AA32477-957E-4B93-AAB5-96EC0F6D0C0C}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{2AA32477-957E-4B93-AAB5-96EC0F6D0C0C}.Release|Any CPU.ActiveCfg = Release|Any CPU
