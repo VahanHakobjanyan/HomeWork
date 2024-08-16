@@ -9,33 +9,34 @@ namespace Create_a_custom_linked_list
 {
     internal class CustomLinkedList<T>
     {
-        public Node<T>? First { get; set; }
-        public int Count { get; set; }
+        private CustomLinkedList<int>? _next;
+        private int _number;
 
-        public void Add(T value)
+        private CustomLinkedList() { }
+        public CustomLinkedList(int number)
         {
-            Node<T> newNode = new Node<T>(value);
-            if (First != null)
-            {
-                First.Next = newNode;
-                First.Next.Previous = First;
-            }
-            else
-            {
-                First = newNode;
-            }
-            Count++;
+            _number = number;
         }
 
-        public IEnumerator<Node<T>> GetEnumerator()
+        public void Add(int number)
         {
-            Node<T>? Current = First;
+            _next = new CustomLinkedList<int>(number);
 
-            while (Current != null)
-            {
-                yield return Current;
-                Current = Current.Next;
-            }
+        }
+
+        public bool Contains(CustomLinkedList<int> list)
+        {
+            throw new NotImplementedException();
+        }
+
+        public void Remove(CustomLinkedList<int> list)
+        {
+            throw new NotImplementedException();
+        }
+
+        IEnumerator<CustomLinkedList<int>> GetEnumerator()
+        {
+            yield return new CustomLinkedList<int>();
         }
     }
 }

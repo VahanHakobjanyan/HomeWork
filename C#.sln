@@ -337,29 +337,13 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "City Attractions Enumerator
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "15", "15", "{E1999581-F1FA-4AA1-BEDF-C49751B8803B}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Custom Range Generator", "15\Custom Range Generator\Custom Range Generator.csproj", "{D19169CA-D777-4221-9329-7765FEC827F0}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Custom Range Generator", "15\Custom Range Generator\Custom Range Generator.csproj", "{D19169CA-D777-4221-9329-7765FEC827F0}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Create a custom linked list", "15\Create a custom linked list\Create a custom linked list.csproj", "{10F9CD56-BC54-474C-B1DA-F8BEF542E4BB}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Create a custom linked list", "15\Create a custom linked list\Create a custom linked list.csproj", "{10F9CD56-BC54-474C-B1DA-F8BEF542E4BB}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Generate the Fibonacci sequence", "15\Generate the Fibonacci sequence\Generate the Fibonacci sequence.csproj", "{60536620-4FC5-49BA-8921-6D5E385568B3}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Generate the Fibonacci sequence", "15\Generate the Fibonacci sequence\Generate the Fibonacci sequence.csproj", "{60536620-4FC5-49BA-8921-6D5E385568B3}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Bookstore Management", "15\Bookstore Management\Bookstore Management.csproj", "{B1FFE8AA-AC8C-44C2-ACEE-B9BF0634289E}"
-EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Temp", "Temp", "{F9B2F4D1-474F-4A40-9DE8-88C9B01C193B}"
-EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Card", "ConsoleApp1\Card.csproj", "{B8E1532E-E939-4B4E-9646-4D0B151D9797}"
-EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Interfaces vs Abstract Classes", "Interfaces vs Abstract Classes", "{4C8C1B0F-E643-4E44-B56D-5CF8A4B81A6C}"
-EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Inheritance", "Inheritance\Inheritance.csproj", "{D17FD271-CC48-4387-A589-C7C71816904D}"
-EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Instance creation and constructor", "Instance creation and constructor\Instance creation and constructor.csproj", "{11985D66-7F34-463A-8147-BE8391B77613}"
-EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Implementation vs inheritance", "Implementation vs inheritance\Implementation vs inheritance.csproj", "{1B4787A1-C3D3-4B48-AA9D-A381C37C7E41}"
-EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "UseCase", "UseCase", "{21406972-D325-47D9-96D2-A821DD485247}"
-EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SimpleGame", "SimpleGame\SimpleGame.csproj", "{39181FA8-1840-43E2-85B2-320DF21B3461}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Bookstore Management", "15\Bookstore Management\Bookstore Management.csproj", "{B1FFE8AA-AC8C-44C2-ACEE-B9BF0634289E}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -983,26 +967,6 @@ Global
 		{B1FFE8AA-AC8C-44C2-ACEE-B9BF0634289E}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{B1FFE8AA-AC8C-44C2-ACEE-B9BF0634289E}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{B1FFE8AA-AC8C-44C2-ACEE-B9BF0634289E}.Release|Any CPU.Build.0 = Release|Any CPU
-		{B8E1532E-E939-4B4E-9646-4D0B151D9797}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{B8E1532E-E939-4B4E-9646-4D0B151D9797}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{B8E1532E-E939-4B4E-9646-4D0B151D9797}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{B8E1532E-E939-4B4E-9646-4D0B151D9797}.Release|Any CPU.Build.0 = Release|Any CPU
-		{D17FD271-CC48-4387-A589-C7C71816904D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{D17FD271-CC48-4387-A589-C7C71816904D}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{D17FD271-CC48-4387-A589-C7C71816904D}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{D17FD271-CC48-4387-A589-C7C71816904D}.Release|Any CPU.Build.0 = Release|Any CPU
-		{11985D66-7F34-463A-8147-BE8391B77613}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{11985D66-7F34-463A-8147-BE8391B77613}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{11985D66-7F34-463A-8147-BE8391B77613}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{11985D66-7F34-463A-8147-BE8391B77613}.Release|Any CPU.Build.0 = Release|Any CPU
-		{1B4787A1-C3D3-4B48-AA9D-A381C37C7E41}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{1B4787A1-C3D3-4B48-AA9D-A381C37C7E41}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{1B4787A1-C3D3-4B48-AA9D-A381C37C7E41}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{1B4787A1-C3D3-4B48-AA9D-A381C37C7E41}.Release|Any CPU.Build.0 = Release|Any CPU
-		{39181FA8-1840-43E2-85B2-320DF21B3461}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{39181FA8-1840-43E2-85B2-320DF21B3461}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{39181FA8-1840-43E2-85B2-320DF21B3461}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{39181FA8-1840-43E2-85B2-320DF21B3461}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -1161,12 +1125,6 @@ Global
 		{10F9CD56-BC54-474C-B1DA-F8BEF542E4BB} = {E1999581-F1FA-4AA1-BEDF-C49751B8803B}
 		{60536620-4FC5-49BA-8921-6D5E385568B3} = {E1999581-F1FA-4AA1-BEDF-C49751B8803B}
 		{B1FFE8AA-AC8C-44C2-ACEE-B9BF0634289E} = {E1999581-F1FA-4AA1-BEDF-C49751B8803B}
-		{B8E1532E-E939-4B4E-9646-4D0B151D9797} = {F9B2F4D1-474F-4A40-9DE8-88C9B01C193B}
-		{D17FD271-CC48-4387-A589-C7C71816904D} = {4C8C1B0F-E643-4E44-B56D-5CF8A4B81A6C}
-		{11985D66-7F34-463A-8147-BE8391B77613} = {4C8C1B0F-E643-4E44-B56D-5CF8A4B81A6C}
-		{1B4787A1-C3D3-4B48-AA9D-A381C37C7E41} = {4C8C1B0F-E643-4E44-B56D-5CF8A4B81A6C}
-		{21406972-D325-47D9-96D2-A821DD485247} = {4C8C1B0F-E643-4E44-B56D-5CF8A4B81A6C}
-		{39181FA8-1840-43E2-85B2-320DF21B3461} = {21406972-D325-47D9-96D2-A821DD485247}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {CC8B899A-2422-42FF-8669-37EE786D1AB7}
