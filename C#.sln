@@ -345,7 +345,7 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Bookstore Management", "15\
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Data Structures", "Data Structures", "{2D19B1B8-7778-4657-A89A-31B1F6F13BD0}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CustomList", "CustomList\CustomList.csproj", "{A85A4D62-FAE2-4E8E-AE2B-9ECF4B0F90F2}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CustomList", "DataStructures\CustomList\CustomList.csproj", "{A85A4D62-FAE2-4E8E-AE2B-9ECF4B0F90F2}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
