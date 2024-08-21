@@ -343,6 +343,10 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Generate the Fibonacci sequ
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Bookstore Management", "15\Bookstore Management\Bookstore Management.csproj", "{B1FFE8AA-AC8C-44C2-ACEE-B9BF0634289E}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Data Structures", "Data Structures", "{2D19B1B8-7778-4657-A89A-31B1F6F13BD0}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CustomList", "CustomList\CustomList.csproj", "{A85A4D62-FAE2-4E8E-AE2B-9ECF4B0F90F2}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -961,6 +965,10 @@ Global
 		{B1FFE8AA-AC8C-44C2-ACEE-B9BF0634289E}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{B1FFE8AA-AC8C-44C2-ACEE-B9BF0634289E}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{B1FFE8AA-AC8C-44C2-ACEE-B9BF0634289E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A85A4D62-FAE2-4E8E-AE2B-9ECF4B0F90F2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A85A4D62-FAE2-4E8E-AE2B-9ECF4B0F90F2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A85A4D62-FAE2-4E8E-AE2B-9ECF4B0F90F2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A85A4D62-FAE2-4E8E-AE2B-9ECF4B0F90F2}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -1119,6 +1127,7 @@ Global
 		{10F9CD56-BC54-474C-B1DA-F8BEF542E4BB} = {E1999581-F1FA-4AA1-BEDF-C49751B8803B}
 		{60536620-4FC5-49BA-8921-6D5E385568B3} = {E1999581-F1FA-4AA1-BEDF-C49751B8803B}
 		{B1FFE8AA-AC8C-44C2-ACEE-B9BF0634289E} = {E1999581-F1FA-4AA1-BEDF-C49751B8803B}
+		{A85A4D62-FAE2-4E8E-AE2B-9ECF4B0F90F2} = {2D19B1B8-7778-4657-A89A-31B1F6F13BD0}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {CC8B899A-2422-42FF-8669-37EE786D1AB7}
